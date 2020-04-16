@@ -6,21 +6,21 @@ use Sally\VkKeyboard\Contracts\FactoryInterface;
 
 class Facade
 {
-    public static function createBasicKeyboard(callable $callback, bool $oneTime = true): string
+    public static function createKeyboardBasic(callable $callback, bool $oneTime = true): string
     {
         return self::getConverter()
             ->keyboard()
             ->basic($callback, $oneTime);
     }
 
-    public static function createInlineKeyboard(callable $callback): string
+    public static function createKeyboardInline(callable $callback): string
     {
         return self::getConverter()
             ->keyboard()
             ->inline($callback);
     }
 
-    public static function createBasicCarousel(callable $callback): string
+    public static function createCarousel(callable $callback): string
     {
         return self::getConverter()
             ->carousel()

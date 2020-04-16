@@ -12,7 +12,7 @@ $access_token = $config['access_token'] ?? '';
 $user_id_to_send_keyboard = $config['user_id_to_send_keyboard'] ?? '';
 
 $vk = new VKApiClient();
-$keyboard = Facade::createBasicKeyboard(function (FactoryInterface $factory) {
+$keyboard = Facade::createKeyboardBasic(function (FactoryInterface $factory) {
     return [
         [
             $factory->location([]),
