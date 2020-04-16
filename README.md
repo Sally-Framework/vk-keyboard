@@ -1,7 +1,7 @@
 # VK Keyboard
 [![Latest Version](https://badgen.net/packagist/v/sally/vk-keyboard)](https://packagist.org/packages/sally/vk-keyboard)
-[![Licence](https://badgen.net/badge/license/MIT/blue)]()
-[![Last Commit](https://badgen.net/github/last-commit/Sally-Framework/vk-keyboard)]()
+[![Licence](https://badgen.net/badge/license/MIT/blue)](LICENCE)
+[![Last Commit](https://badgen.net/github/last-commit/Sally-Framework/vk-keyboard)](https://github.com/Sally-Framework/vk-keyboard)
 ## Установка
 
 Перед установкой рекомендую ознакомиться с последними обновлениями api вконтакте, 
