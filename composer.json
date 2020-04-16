@@ -1,0 +1,27 @@
+{
+    "name": "sally-framework/vk-keyboard",
+    "description": "package for converting vk api keyboard objects",
+    "type": "library",
+    "authors": [
+        {
+            "name": "n0tm",
+            "email": "38406016+n0tm@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sally\\VkKeyboard\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
+    },
+    "require": {
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
