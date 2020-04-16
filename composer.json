@@ -3,7 +3,7 @@
     "description": "package for converting vk api keyboard objects",
     "type": "library",
     "version": "1.0",
-    "license": "Apache-2.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "n0tm",
