@@ -14,9 +14,13 @@ $ composer require sally/vk-keyboard
 
 ## Использование
 На момент создания библиотеки api вконтакте поддерживает 3 типа клавиатур, а именно inline, обычная клавиатура и карусели
+## Обычные
 ![Basic](images/vk_basic.jpg)
+## Inline
 ![Inline](images/vk_inline.jpg)
+## Карусели
 ![Open Link](images/vk_carousel.jpg)
+
 
 Чтобы создать такие объекты кавиатур воспользуйтесь фасадом-конструктором этих объектов.
 
