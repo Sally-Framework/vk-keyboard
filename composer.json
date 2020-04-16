@@ -1,11 +1,13 @@
 {
-    "name": "sally-framework/vk-keyboard",
+    "name": "sally/vk-keyboard",
     "description": "package for converting vk api keyboard objects",
     "type": "library",
+    "version": "1.0",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "n0tm",
-            "email": "38406016+n0tm@users.noreply.github.com"
+            "email": "n0tm3t@gmail.com"
         }
     ],
     "autoload": {
